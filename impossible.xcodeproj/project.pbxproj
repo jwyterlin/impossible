@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7B20F93A19A2DA5100E79B0E /* nave.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B20F93819A2DA5100E79B0E /* nave.png */; };
+		7B20F93B19A2DA5100E79B0E /* sky.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B20F93919A2DA5100E79B0E /* sky.png */; };
 		7BBF409D19A0F71600B464E5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BBF409C19A0F71600B464E5 /* Foundation.framework */; };
 		7BBF409F19A0F71600B464E5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BBF409E19A0F71600B464E5 /* CoreGraphics.framework */; };
 		7BBF40A119A0F71600B464E5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BBF40A019A0F71600B464E5 /* UIKit.framework */; };
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7B20F93819A2DA5100E79B0E /* nave.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = nave.png; path = Images/nave.png; sourceTree = "<group>"; };
+		7B20F93919A2DA5100E79B0E /* sky.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sky.png; path = Images/sky.png; sourceTree = "<group>"; };
 		7BBF409919A0F71600B464E5 /* impossible.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = impossible.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BBF409C19A0F71600B464E5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		7BBF409E19A0F71600B464E5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -80,6 +84,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7B20F93719A2DA3D00E79B0E /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				7B20F93819A2DA5100E79B0E /* nave.png */,
+				7B20F93919A2DA5100E79B0E /* sky.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
 		7BBF409019A0F71600B464E5 = {
 			isa = PBXGroup;
 			children = (
@@ -113,6 +126,7 @@
 		7BBF40A219A0F71600B464E5 /* impossible */ = {
 			isa = PBXGroup;
 			children = (
+				7B20F93719A2DA3D00E79B0E /* Images */,
 				7BBF40D219A0FA2700B464E5 /* View */,
 				7BBF40CE19A0F8C500B464E5 /* ViewController */,
 				7BBF40AB19A0F71600B464E5 /* AppDelegate.h */,
@@ -246,7 +260,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				7BBF40A719A0F71600B464E5 /* InfoPlist.strings in Resources */,
+				7B20F93B19A2DA5100E79B0E /* sky.png in Resources */,
 				7BBF40AF19A0F71600B464E5 /* Images.xcassets in Resources */,
+				7B20F93A19A2DA5100E79B0E /* nave.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -465,6 +481,7 @@
 				7BBF40C719A0F71700B464E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7BBF40C819A0F71700B464E5 /* Build configuration list for PBXNativeTarget "impossibleTests" */ = {
 			isa = XCConfigurationList;
@@ -473,6 +490,7 @@
 				7BBF40CA19A0F71700B464E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
