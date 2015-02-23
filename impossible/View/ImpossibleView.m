@@ -12,6 +12,8 @@
 
 -(id)init {
     
+    // Comentario só para teste
+    
     self = [super init];
     
     if ( self ) {
